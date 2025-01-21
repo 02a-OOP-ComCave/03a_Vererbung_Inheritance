@@ -13,7 +13,7 @@ public class SuperCat {
     }
 
      /** Getter */
-    public String getStringAttributes(String op) {
+    protected String getStringAttributes(String op) {
       switch (op) {
         case "#name":
             return firstName;
